@@ -1,0 +1,40 @@
+body{
+    padding: 50px;
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(121,9,9,1) 100%);
+}
+
+h1{
+    font-size: 100px;
+    color: whitesmoke;
+    font-weight: bold;
+    font-family: "Arial";
+    margin: 0;
+}
+
+h3{
+    font-size: 20px;
+    color: whitesmoke;
+    font-family: "Arial";
+    margin: 0;
+}
+
+hr{
+    height: 2px;
+    width: 100%;
+    color: whitesmoke;
+}
+
+#header{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 20px;
+}
+
+#header h1{
+    width: 520px;
+}
