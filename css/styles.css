@@ -42,19 +42,56 @@ hr{
 #pictures{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 #pictures .image {
+    border: none;
     width: 200px;
     height: 200px;
     margin: 20px;
     background-position: center;
     background-size: cover;
     cursor: pointer;
+
     transition: all 0.2s ease-out;
 }
 
 #pictures .image:hover {
     transform: translateY(-2%);
+}
+
+.overlay {
+    background-color: black;
+    opacity: 80%;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+
+}
+
+.overlayContentContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 10;
+
+    position: fixed;
+    top:calc(50vh - (30vw/2) - 40px);
+    left: 35vw;
+
+}
+
+.overlayContentContainer h3{
+    cursor: pointer;
+}
+
+.overlayImage{
+    width: 30vw;
+    height: 30vw;
+    margin-bottom: 10px;
+    background-position: center;
+    background-size: cover;
 }
