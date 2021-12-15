@@ -38,3 +38,23 @@ hr{
 #header h1{
     width: 520px;
 }
+
+#pictures{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#pictures .image {
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    background-position: center;
+    background-size: cover;
+    cursor: pointer;
+    transition: all 0.2s ease-out;
+}
+
+#pictures .image:hover {
+    transform: translateY(-2%);
+}
