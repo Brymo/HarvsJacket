@@ -95,3 +95,18 @@ hr{
     background-position: center;
     background-size: cover;
 }
+
+.whiteFilter{
+    filter: invert(99%) sepia(100%) saturate(13%) hue-rotate(210deg) brightness(103%) contrast(100%);
+}
+
+.padBottom{
+    padding-bottom: 15px;;
+}
+
+.marginRight{
+    margin-right: 5px;;
+}
+.underline{
+    text-decoration: underline;
+}
