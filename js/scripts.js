@@ -1,9 +1,7 @@
 const photoCount = 25;
 const pics = document.getElementById("pictures");
 
-for (let i = 1; i <= 15; i++) {
-  //there is no 7
-  if(i == 7) continue;
+for (let i = 1; i <= 33; i++) {
   const newElement = document.createElement("button");
   newElement.className = "image";
   newElement.style.backgroundImage = `url(images/${i}.jpg)`;
@@ -11,7 +9,7 @@ for (let i = 1; i <= 15; i++) {
   pics.appendChild(newElement);
 }
 
-for (let i = 16; i <= 25; i++) {
+for (let i = 34; i <= 50; i++) {
   const newElement = document.createElement("button");
   newElement.className = "image";
   newElement.style.backgroundImage = `url(images/${i}.png)`;
