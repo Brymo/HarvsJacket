@@ -1,7 +1,7 @@
 const photoCount = 25;
 const pics = document.getElementById("pictures");
 
-for (let i = 1; i <= 33; i++) {
+for (let i = 1; i <= 31; i++) {
   const newElement = document.createElement("button");
   newElement.className = "image";
   newElement.style.backgroundImage = `url(images/${i}.jpg)`;
@@ -9,7 +9,7 @@ for (let i = 1; i <= 33; i++) {
   pics.appendChild(newElement);
 }
 
-for (let i = 34; i <= 50; i++) {
+for (let i = 32; i <= 48; i++) {
   const newElement = document.createElement("button");
   newElement.className = "image";
   newElement.style.backgroundImage = `url(images/${i}.png)`;
